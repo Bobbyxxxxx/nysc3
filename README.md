@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# NYSC PPA Finder 🇳🇬
 
-# Run and deploy your AI Studio app
+> 🚧 **Work in progress**
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/e3276c42-159d-43c1-9893-3b484671c2a7
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+Every year, thousands of NYSC corps members arrive in a new state with little idea where they could serve. PPA Finder helps them discover potential **Places of Primary Assignment (PPAs)** in a given area, so they can make an informed choice.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Features
+
+**Done**
+- FEATURE (e.g. search PPAs by state or LGA)
+- FEATURE (e.g. view details for each organisation)
+
+**Planned**
+- FEATURE (e.g. reviews from past corps members)
+- FEATURE (e.g. filter by sector: education, health, tech)
+
+## Tech stack
+
+- **Frontend:** React, JavaScript, CSS
+- **Backend:** Supabase (PostgreSQL database)
+
+## Run locally
+
+```bash
+git clone https://github.com/Bobbyxxxxx/REPO-NAME.git
+cd REPO-NAME
+npm install
+npm run dev
+```
