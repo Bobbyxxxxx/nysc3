@@ -1,0 +1,6 @@
+{
+  "name": "NYSC Help Roommate & PPA Finder",
+  "description": "Find your perfect Place of Primary Assignment (PPA) and connect with fellow corps members for safe and affordable housing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
